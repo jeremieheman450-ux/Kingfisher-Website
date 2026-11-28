@@ -1938,7 +1938,7 @@ body { margin: 0; background: var(--background); color: var(--foreground); font-
   .signature { --sig-circle: 150px; }
 }
 @media (max-width: 768px) {
-    .menu-preview img {
+    .menu-preview-grid img {
         transform: scale(0.9);
     }
 }
