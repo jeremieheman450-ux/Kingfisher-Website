@@ -482,7 +482,10 @@ color: var(--color-cream);
     .menu-preview-grid {
         grid-template-columns: 1fr;
     }
-
+    @media (max width:768px) {
+        .menu-preview-grid img { 
+          object-fit: contain;
+}
     .menu-item {
         gap: var(--space-md);
         padding: var(--space-md) 0;
@@ -1937,8 +1940,4 @@ body { margin: 0; background: var(--background); color: var(--foreground); font-
   .signature__col--right .dish:nth-child(2) { transform: none; }
   .signature { --sig-circle: 150px; }
 }
-@media (max-width: 768px) {
-    .menu-preview-grid img {
-        transform: scale(0.9);
-    }
-}
+
