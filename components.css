@@ -684,9 +684,9 @@ color: var(--color-cream);
 
 .hero-meta-value {
     color: var(--color-cream);
-    font-family: var(--font-display);
+    font-family: var(--font-body);
     font-size: 1.05rem;
-    font-weight: var(--font-weight-semibold);
+    font-weight: 600;
 }
 
 .hero-meta-divider {
